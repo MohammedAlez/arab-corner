@@ -5,6 +5,130 @@ import projectInteriorModernVilla from '../assets/images/project_interior_modern
 import projectMepEngineering from '../assets/images/project_mep_engineering_1793696510607.jpg';
 import projectRoshnTowers from '../assets/images/project_roshn_towers_1793696510448.jpg';
 
+import projectLib1 from '../assets/images/1.jpg';
+import projectLib2 from '../assets/images/2.jpg';
+import projectLib3 from '../assets/images/3.jpg';
+import projectLib4 from '../assets/images/4.jpg';
+import projectLib5 from '../assets/images/5.jpg';
+import projectLib6 from '../assets/images/6.jpg';
+import projectLib7 from '../assets/images/7.jpg';
+import projectLib8 from '../assets/images/8.jpg';
+import projectLib9 from '../assets/images/9.jpg';
+
+export interface ProjectLibraryItem {
+  id: string;
+  image: string;
+  titleAr: string;
+  titleEn: string;
+  categoryAr: string;
+  categoryEn: string;
+  locationAr: string;
+  locationEn: string;
+  heightClass?: string;
+}
+
+export const PROJECT_LIBRARY: ProjectLibraryItem[] = [
+  {
+    id: 'lib-1',
+    image: projectLib1,
+    titleAr: 'أعمال التشييد الخرساني والتسليح الميداني',
+    titleEn: 'Structural Concrete & Steel Reinforcement',
+    categoryAr: 'إنشاءات وبناء',
+    categoryEn: 'Construction',
+    locationAr: 'الرياض',
+    locationEn: 'Riyadh',
+    heightClass: 'aspect-[4/5]'
+  },
+  {
+    id: 'lib-2',
+    image: projectLib2,
+    titleAr: 'أبراج وادي سدرة السكنية - مشروع روشن',
+    titleEn: 'Sedra Valley Residential Towers - ROSHN',
+    categoryAr: 'أبراج ومشاريع كبرى',
+    categoryEn: 'Major Developments',
+    locationAr: 'الرياض - وادي سدرة',
+    locationEn: 'Sedra, Riyadh',
+    heightClass: 'aspect-[3/4]'
+  },
+  {
+    id: 'lib-3',
+    image: projectLib3,
+    titleAr: 'المجمع التجاري الخاص بشركة بودل',
+    titleEn: 'Boudl Commercial Retail Complex',
+    categoryAr: 'مجمعات تجارية',
+    categoryEn: 'Commercial Complex',
+    locationAr: 'طريق الثمامة - الرياض',
+    locationEn: 'Thumama Rd, Riyadh',
+    heightClass: 'aspect-[16/10]'
+  },
+  {
+    id: 'lib-4',
+    image: projectLib4,
+    titleAr: 'واجهات وتشطيبات مودرن لفيلا خاصة - مشروع مشيرقة',
+    titleEn: 'Luxury Modern Villa Architecture - Moshairqa',
+    categoryAr: 'فلل سكنية فاخرة',
+    categoryEn: 'Luxury Villas',
+    locationAr: 'حي مشيرقة - الرياض',
+    locationEn: 'Moshairqa, Riyadh',
+    heightClass: 'aspect-[4/3]'
+  },
+  {
+    id: 'lib-5',
+    image: projectLib5,
+    titleAr: 'محطة الأعمال الكهروميكانيكية والتكييف المركزي (MEP)',
+    titleEn: 'MEP Infrastructure & HVAC Central Plant',
+    categoryAr: 'أعمال كهروميكانيكية',
+    categoryEn: 'MEP & Systems',
+    locationAr: 'الرياض',
+    locationEn: 'Riyadh',
+    heightClass: 'aspect-[4/5]'
+  },
+  {
+    id: 'lib-6',
+    image: projectLib6,
+    titleAr: 'أعمال الواجهات والإضاءة المعمارية المتطورة',
+    titleEn: 'Curtain-Walls & Modern Architectural Lighting',
+    categoryAr: 'واجهات وتصميم',
+    categoryEn: 'Facades & Design',
+    locationAr: 'الرياض',
+    locationEn: 'Riyadh',
+    heightClass: 'aspect-[3/4]'
+  },
+  {
+    id: 'lib-7',
+    image: projectLib7,
+    titleAr: 'إدارة وتنسيق أعمال الرافعات والمعدات الإنشائية',
+    titleEn: 'Crane Logistics & Structural Site Operations',
+    categoryAr: 'إشراف ميداني',
+    categoryEn: 'Site Operations',
+    locationAr: 'منطقة الرياض',
+    locationEn: 'Riyadh Province',
+    heightClass: 'aspect-[16/9]'
+  },
+  {
+    id: 'lib-8',
+    image: projectLib8,
+    titleAr: 'تنفيذ الواجهات الزجاجية وممرات المشاة الحيوية',
+    titleEn: 'Retail Promenades & High-End Storefronts',
+    categoryAr: 'مجمعات تجارية',
+    categoryEn: 'Commercial Plaza',
+    locationAr: 'الرياض',
+    locationEn: 'Riyadh',
+    heightClass: 'aspect-[4/3]'
+  },
+  {
+    id: 'lib-9',
+    image: projectLib9,
+    titleAr: 'التشطيبات الداخلية الراقية والحدائق المفتوحة',
+    titleEn: 'High-End Interior Living & Landscaping',
+    categoryAr: 'تصميم وتشطيب',
+    categoryEn: 'Interior & Living',
+    locationAr: 'الرياض',
+    locationEn: 'Riyadh',
+    heightClass: 'aspect-[16/10]'
+  }
+];
+
 
 export const COMPANY_INFO = {
   nameAr: 'ركن العرب للتجارة والمقاولات',
