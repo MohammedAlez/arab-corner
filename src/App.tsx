@@ -130,7 +130,7 @@ export default function App() {
       </aside>
 
       {/* Mobile Floating Quick CTA Bar */}
-      <div className="fixed bottom-3 left-3 right-3 sm:hidden z-40 bg-slate-950/95 backdrop-blur-md rounded-xl p-2 border border-slate-800 shadow-2xl flex items-center justify-between gap-2">
+      {/* <div className="fixed bottom-3 left-3 right-3 sm:hidden z-40 bg-slate-950/95 backdrop-blur-md rounded-xl p-2 border border-slate-800 shadow-2xl flex items-center justify-between gap-2">
         <a
           href={COMPANY_INFO.whatsappLink}
           target="_blank"
@@ -155,7 +155,7 @@ export default function App() {
         >
           {lang === 'ar' ? 'طلب تسعير' : 'Quote'}
         </button>
-      </div>
+      </div> */}
     </div>
   );
 }
