@@ -102,7 +102,7 @@ export default function App() {
       />
 
       {/* Floating WhatsApp Quick Contact Button (Bottom Left) */}
-      <aside aria-label="تواصل سريع عبر واتساب" className="fixed bottom-20 left-4 sm:bottom-6 sm:left-6 z-50 flex items-center gap-2.5">
+      <aside aria-label="تواصل سريع عبر واتساب" className="fixed bottom-10 left-4 sm:bottom-6 sm:left-6 z-50 flex items-center gap-2.5">
         <a
           href={COMPANY_INFO.whatsappLink}
           target="_blank"
