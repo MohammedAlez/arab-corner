@@ -11,6 +11,7 @@ import { Footer } from './components/Footer';
 import { QuoteModal } from './components/QuoteModal';
 import { Phone, MessageSquare } from 'lucide-react';
 import { COMPANY_INFO } from './data/companyData';
+import { ProjectsLibrary } from './components/ProjectsLibrary';
 
 export default function App() {
   const [lang, setLang] = useState<'ar' | 'en'>('ar');
@@ -67,6 +68,12 @@ export default function App() {
 
         {/* Projects Showcase with filters */}
         <ProjectsShowcase
+          lang={lang}
+          onOpenQuoteModal={() => handleOpenQuoteModal()}
+        />
+
+        {/* New Projects Library with Masonry Grid & Random Slide Showcase */}
+        <ProjectsLibrary
           lang={lang}
           onOpenQuoteModal={() => handleOpenQuoteModal()}
         />
