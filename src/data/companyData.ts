@@ -1,4 +1,10 @@
 import { ServiceItem, ProjectItem, CorePillar } from '../types';
+import heroConstructionSaudi from '../assets/images/hero_construction_saudi_1793696509918.jpg';
+import projectCommercialCenter from '../assets/images/project_commercial_center_1793696511509.jpg';
+import projectInteriorModernVilla from '../assets/images/project_interior_modern_villa_1793696511188.jpg';
+import projectMepEngineering from '../assets/images/project_mep_engineering_1793696510607.jpg';
+import projectRoshnTowers from '../assets/images/project_roshn_towers_1793696510448.jpg';
+
 
 export const COMPANY_INFO = {
   nameAr: 'ركن العرب للتجارة والمقاولات',
@@ -20,7 +26,7 @@ export const COMPANY_INFO = {
   googleMapsEmbedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3441.525603318066!2d46.80127628003667!3d24.840836521067146!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e2f194dcfc9874d%3A0x466c717fdf1a0999!2z2LHZg9mGINin2YTYudix2Kgg2YTZhNiq2LTYutmK2YQg2YjYp9mE2LXZitin2YbYqQ!5e1!3m2!1sen!2sdz!4v1793807989127!5m2!1sen!2sdz',
   googleMapsDirectUrl: 'https://www.google.com/maps/place/24%C2%B050\'27.0%22N+46%C2%B048\'04.6%22E/@24.8408365,46.8012763,17z',
   logoUrl: '/assets/aistudio/image_257b0d26.png',
-  heroImage: '/src/assets/images/hero_construction_saudi_1793696509918.jpg'
+  heroImage: heroConstructionSaudi
 };
 
 export const CORE_PILLARS: CorePillar[] = [
@@ -181,7 +187,7 @@ export const PROJECTS: ProjectItem[] = [
     locationEn: 'Riyadh - ROSHN Sedra',
     scope: 'تنفيذ أعمال التمديدات والشبكات الكهربائية واللوحات الرئيسية في عدد 2 من أبراج وادي سدرة بمشروع روشن الرائد.',
     scopeEn: 'Execution of complete electrical distribution, wiring, and main panels in two signature towers at ROSHN Sedra Valley.',
-    image: '/src/assets/images/project_roshn_towers_1793696510448.jpg',
+    image: projectRoshnTowers,
     client: 'مشروع روشن (ROSHN)',
     clientEn: 'ROSHN Development',
     year: '2024 - 2025',
@@ -207,7 +213,7 @@ export const PROJECTS: ProjectItem[] = [
     locationEn: 'Riyadh - Thumama Road',
     scope: 'أعمال البناء والتشييد المتكاملة لمجمع تجاري حديث على طريق الثمامة الحيوي لخدمة مشاريع الضيافة والتجزئة لشركة بودل.',
     scopeEn: 'Comprehensive construction of a modern commercial complex on prime Thumama Road for Boudl hospitality & retail holdings.',
-    image: '/src/assets/images/project_commercial_center_1793696511509.jpg',
+    image: projectCommercialCenter,
     client: 'شركة بودل للفنادق والتجارة',
     clientEn: 'Boudl Hotels & Trading Co.',
     year: '2023 - 2024',
@@ -233,7 +239,7 @@ export const PROJECTS: ProjectItem[] = [
     locationEn: 'Riyadh - Moshairqa District',
     scope: 'بناء وتشييد عدد 2 فيلا سكنية فاخرة بتسليم مفتاح متضمنة الأعمال الإنشائية والتشطيبات المودرن والمسابح والحدائق.',
     scopeEn: 'Turnkey construction of 2 high-end private villas including structural shell, contemporary finishing, pools, and landscape.',
-    image: '/src/assets/images/project_interior_modern_villa_1793696511188.jpg',
+    image: projectInteriorModernVilla,
     client: 'ملاك خواص',
     clientEn: 'Private Clients',
     year: '2024',
@@ -259,7 +265,7 @@ export const PROJECTS: ProjectItem[] = [
     locationEn: 'Al Quway\'iyah - Mehairqa',
     scope: 'أعمال البناء والتشييد الكاملة لمستوصف محيرقة الصحي لخدمة المجتمع المحلي بأحدث المواصفات الصحية والإنشائية.',
     scopeEn: 'Turnkey civil and MEP construction of Mehairqa Primary Healthcare Clinic compliant with health authority standards.',
-    image: '/src/assets/images/hero_construction_saudi_1793696509918.jpg',
+    image: heroConstructionSaudi,
     client: 'القطاع الصحي الحكومي',
     clientEn: 'Government Health Sector',
     year: '2023',
@@ -285,7 +291,7 @@ export const PROJECTS: ProjectItem[] = [
     locationEn: 'Al Rayn Region - Riyadh Province',
     scope: 'تشييد وتأسيس القواعد والأساسات الإنشائية المتكاملة لـ 7 مستوصفات صحية تشمل: حريملاء الحصاة، المثناة، الرين العليا، السحيمية، الرجع، السيح، والمجذم.',
     scopeEn: 'Foundational civil engineering and structural baseline construction for 7 health clinic centers across Al Rayn: Huraimila Al-Hasa, Al-Mothnah, Upper Al-Rayn, Al-Suhaimiyah, Al-Rajee, Al-Seeh, and Al-Majdham.',
-    image: '/src/assets/images/project_mep_engineering_1793696510607.jpg',
+    image: projectMepEngineering,
     client: 'المشاريع التنموية الحكومية',
     clientEn: 'Government Infrastructure Projects',
     year: '2022 - 2024',
